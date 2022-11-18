@@ -1,0 +1,18 @@
+
+print('Enter your name:')
+name = input()
+print(" Name" + name)
+print('Enter your car make:')
+ carmake= input()
+print(" Car Make:	" + carmake)
+print('Enter your Repair date:')
+date = input()
+print(" Date or Repair:	" + date)
+print('Enter your Labour Hours:')
+lab = input()
+print(" Hours of Labor:	" + lab)
+print('Enter your Supplies:')
+sup = input()
+print(" Cost of Supplies/Parts:" + sup)
+total = (lab * 40) + sup 
+print(" Total Cost:		" + total)
